@@ -1,0 +1,8 @@
+# CCLS cache.
+.ccls-cache
+# Compiled object files.
+*.o
+# slstatus executable.
+slstatus
+# Bash script scratchpad.
+scratchpad.sh
