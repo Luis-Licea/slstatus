@@ -74,7 +74,7 @@ static const struct arg args[] = {
     { separator,   "%s",     separator_str },
     { netspeed_tx, "%s ",   "wlan0"       },
     { separator,   "%s",     separator_str },
-    { wifi_perc,   "%s%% ﬉", "wlan0"       },
+    { wifi_perc,   "%s%% ", "wlan0"       },
     { separator,   "%s",     separator_str },
     { run_command, "%4s ",  volume_regex  },
     { separator,   "%s",     separator_str },
@@ -87,6 +87,8 @@ static const struct arg args[] = {
     { keymap,      "%s ",   ""            },
     { separator,   "%s",     separator_str },
     { datetime,    "%s ",   "%m-%d-%Y %r" },
+
+    { separator,    "%s",    " "  },
 
     // CPU   ﬙ 
     // Calendar 
